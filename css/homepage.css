@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+
+.navbar-brand {
+    color:white !important;
+    background:cadetblue !important;
+    font-family:"New Century Gothic", CenturyGothic, AppleGothic;
+    font-size: 25px;
+}
+
+.nav-link {
+    font-family:"Century Gothic" !important;
+    font-size: 20px;
+
+}
+
+body {
+    min-height: 100vh;
+}
+ aside {
+    float:left;
+    /* width:70%; */
+    height:550px;
+    padding:20px;
+    margin-left:20px;
+    margin-top:60px;
+    margin-bottom:60px;
+    background:white;
+    position:relative; 
+} 
+
+#boxheading {
+    font-size:30px;
+    float:left;
+    color:cadetblue;
+    font-weight: bold;
+
+}
+.btn-primary {
+    color: #fff;
+    background-color: cadetblue;
+    border-color: cadetblue;
+}
+
+
+textarea.form-control {
+    width: 100%;
+    height: calc(7.5em + .75rem + 5px);
+}
+#footer1 {
+    padding:15px;
+    text-align: center;
+    background-color: cadetblue;
+    position: absolute;
+    right:0;
+    bottom:20px;
+    left:0;    
+}
+#footer2{
+    text-align: center;
+    font-size:15px;
+    padding:15px;
+    background-color: darkgrey;
+    color: grey;
+    position: absolute;
+    right:0;
+    bottom:0;
+    left:0;         
+}
+
+@media screen and (max-width: 400px) {
+    aside {
+        margin-left:20px;
+        margin-right:20px;
+    }
+    }
+@media screen and (min-width: 400px) and (max-width:768px){
+aside {
+    margin-left:20px;
+    margin-right:20px;
+}
+}
+  /* Width at 168px and below */
+@media screen and (min-width: 768px) and (max-width:992px) {
+aside {
+    margin-left:20px;
+    margin-right:200px;
+}
+
+}
+
+/* @media screen and (max-width: 992px) {
+    aside {
+        margin-left:20px;
+        margin-right:50px;
+    }
+    
+    } */
