@@ -26,6 +26,14 @@
     height:100%; 
   
   }
+#profoliofont {
+    color:white !important;
+    background:cadetblue !important;
+    font-family:"New Century Gothic", CenturyGothic, AppleGothic;
+    font-size: 25px;
+    margin:20px 100px;
+    
+}
 
 aside {
     float:left;
